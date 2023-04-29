@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Alura_Encriptador</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="shortcut icon" href="img/Logo_Icon.svg">
+</head>
+<body>
+
+    <header>
+        <div class="vector">
+            <img src="img/Logo.svg" alt="">
+        </div>
+    </header>
+
+    <main>
+
+        <div class="area1">
+            <div class="ingresar_texto">
+                <div class="text_area">
+                    <textarea autofocus name="" id="input_text" cols="50" rows="30" class="input_text" placeholder="Ingrese Texto Aqui ..... "></textarea>
+                    <p class="text_condicion">
+                        <img src="img/bi_exclamation-circle-fill.png" alt=""> 
+                        Solo letras minusculas y sin acentos
+                    </p>
+                </div>
+            </div>
+    
+            <section class="button_position">
+                <input type="button" value="Encriptar" class="button" id="encriptar_boton">
+                <input type="button" value="Desencriptar" class="button" id="desencriptar_boton">
+            </section>
+        </div>
+
+        <div class="area2">
+            <div class="mensaje_encriptado" id="mensaje_encriptado"></div>
+
+        <div class="esperando_mensaje" id="display_esperandoMensaje">
+            <img class="muñeco" id="muñeco" src="img/Muñeco.svg" alt="">
+            <h3 class="primer_mensaje">Ningun mensaje fue encontrado</h3>
+            <h3 class="segundo_mensaje">Ingrese el texto que desea encriptar o desencriptar</h3>
+        </div>
+        <div>
+            <input type="button" value="copiar/limpiar" class="copiar_boton" id="copiar_boton">
+        </div>
+        </div>
+    </main>
+
+    <br><br><br><br><br>
+
+    <footer>
+
+        <p>Creado por <em><strong>Félix</strong></em></p>
+
+        <ul class="social_icon">
+            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-tiktok"></ion-icon></a></li>
+        </ul>
+        
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="javascript.js"></script>
+
+    
+</body>
+</html>
