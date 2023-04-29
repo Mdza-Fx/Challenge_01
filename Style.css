@@ -161,7 +161,7 @@ textarea::placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 40px;
+    padding-right: 65px;
   }
 
   footer .social_icon li, footer .social_icon li a{
